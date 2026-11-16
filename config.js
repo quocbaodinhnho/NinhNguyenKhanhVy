@@ -7,7 +7,7 @@ const LOVE = {
   name2: "Em",
 
   // Ngày bắt đầu yêu (năm-tháng-ngàyTgiờ:phút:giây)
-  startDate: "2024-10-25T20:00:00",
+  startDate: "2026-10-25T20:00:00",
 
   // Dòng chữ nhỏ dưới tên
   tagline: "Cảm ơn vì đã xuất hiện và ở lại bên nhau 🌷",
@@ -18,7 +18,7 @@ const LOVE = {
   // Các cột mốc — thêm/bớt thoải mái. "photo" có thể để "" nếu không có ảnh.
   milestones: [
     {
-      date: "2024-09-06",
+      date: "2026-09-06",
       title: "Ngày mình bắt đầu",
       text: "Ngày đầu tiên chúng mình nhắn tin cho  của nhau. Hồi hộp lắm nhưng mà vui lắm.",
       photo: "images/1.jpg",
