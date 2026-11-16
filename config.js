@@ -7,7 +7,7 @@ const LOVE = {
   name2: "Em",
 
   // Ngày bắt đầu yêu (năm-tháng-ngàyTgiờ:phút:giây)
-  startDate: "2024-02-14T20:00:00",
+  startDate: "2024-10-25T20:00:00",
 
   // Dòng chữ nhỏ dưới tên
   tagline: "Cảm ơn vì đã xuất hiện và ở lại bên nhau 🌷",
@@ -18,35 +18,28 @@ const LOVE = {
   // Các cột mốc — thêm/bớt thoải mái. "photo" có thể để "" nếu không có ảnh.
   milestones: [
     {
-      date: "2024-02-14",
+      date: "2024-09-06",
       title: "Ngày mình bắt đầu",
-      text: "Ngày đầu tiên mình chính thức là của nhau. Hồi hộp lắm nhưng mà vui lắm.",
+      text: "Ngày đầu tiên chúng mình nhắn tin cho  của nhau. Hồi hộp lắm nhưng mà vui lắm.",
       photo: "images/1.jpg",
     },
     {
-      date: "2024-05-20",
+      date: "2026-10-24",
       title: "Chuyến đi đầu tiên",
-      text: "Lần đầu mình đi chơi xa cùng nhau, đi đâu cũng thấy vui vì có nhau.",
+      text: "Lần đầu mình đi chơi, đi ăn, và đi dạo và có 1 đêm rất vui  vì có nhau.",
       photo: "images/2.jpg",
     },
     {
-      date: "2024-10-10",
+      date: "2026-10-25",
       title: "Một kỷ niệm khó quên",
-      text: "Viết gì đó thật đáng nhớ ở đây nhé...",
+      text: "Lần đó chúng mình chơi chơi thảo cầm viên ,và cũng là ngày đánh dấu chúng ta yêu nhau",
       photo: "images/3.jpg",
-    },
-    {
-      date: "2025-02-14",
-      title: "Kỷ niệm 1 năm",
-      text: "Một năm có nhau, có biết bao nhiêu điều để nhớ.",
-      photo: "images/4.jpg",
     },
   ],
 
   // Thư viện ảnh: bỏ ảnh vào thư mục images/ rồi ghi tên ảnh ở đây
   gallery: [
     "images/1.jpg", "images/2.jpg", "images/3.jpg",
-    "images/4.jpg", "images/5.jpg", "images/6.jpg",
   ],
 
   // Mục "lý do yêu" — bấm nút sẽ hiện ngẫu nhiên từng câu
