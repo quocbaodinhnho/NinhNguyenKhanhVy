@@ -21,25 +21,25 @@ const LOVE = {
       date: "2026-09-06",
       title: "Ngày mình bắt đầu ",
       text: "Ngày đầu tiên mình nhắn tin cho nhau. Hồi hộp lắm nhưng mà vui lắm.",
-      photo: "1.jpg",
+      photo: "images/1.jpg",
     },
     {
       date: "2026-10-24",
       title: "Kỷ niệm ",
       text: "Ngày a và e đi chơi , gặp nhau một buổi tối đi ăn quán Korean và đi chơi dạo phố và có buổi tối ở cùng nhau .",
-     photo: "2.jpg",
+     photo: "images/2.jpg",
     },
       {
       date: "2026-10-25",
       title: "Kỷ niệm đáng nhớ",
       text: "Ngày 2 chúng ta đi chơi thảo cầm viên, đi ăn uống, và ngày a đã tỏ tình e đánh dấy này chúng ta yêu .",
-     photo: "3.jpg",
+     photo: "images/3.jpg",
   ],
   // Thư viện ảnh: ghi tên ảnh trực tiếp tại đây
-gallery: [
-  "1.jpg",
-  "2.jpg",
-  "3.jpg",
+  gallery: [
+    "images/1.jpg", 
+    "images/2.jpg", 
+    "images/3.jpg",
 ],
 
   // Mục "lý do yêu" — bấm nút sẽ hiện ngẫu nhiên từng câu
