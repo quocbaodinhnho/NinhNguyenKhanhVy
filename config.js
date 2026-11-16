@@ -40,30 +40,27 @@ gallery: [
   "1.jpg",
   "2.jpg",
   "3.jpg",
-  "4.jpg",
-  "5.jpg",
-  "6.jpg"
 ],
 
   // Mục "lý do yêu" — bấm nút sẽ hiện ngẫu nhiên từng câu
   reasonsTitle: "Những điều mình thương nhất 💌",
   reasons: [
-    "Vì nụ cười của người làm mọi mệt mỏi tan biến.",
-    "Vì ở bên người, mình thấy mình là phiên bản tốt hơn.",
+    "Vì nụ cười của em làm mọi mệt mỏi tan biến.",
+    "Vì ở bên em, anh thấy mình là phiên bản tốt hơn.",
     "Vì những lúc ngốc nghếch mà vẫn đáng yêu vô cùng.",
-    "Vì người luôn lắng nghe mình, kể cả những chuyện nhỏ xíu.",
-    "Vì chỉ cần nghĩ đến người là thấy bình yên.",
+    "Vì em luôn lắng nghe anh, kể cả những chuyện nhỏ xíu.",
+    "Vì chỉ cần nghĩ đến em là thấy bình yên.",
   ],
 
   // Thư tình
   letter: {
-    title: "Gửi người thương 💌",
+    title: "Gửi người anh yêu thương 💌",
     body:
-      "Chào người mình thương,\n\n" +
-      "Cảm ơn người đã đến bên mình, cùng mình đi qua những ngày vui lẫn những ngày chưa vui. " +
-      "Có người, mọi thứ bình thường nhất cũng trở nên đặc biệt.\n\n" +
+      "Chào người anh yêu,\n\n" +
+      "Cảm ơn em đã đến bên anh, đã cho anh đươc có cơ hội làm người em yêu " +
+      "Có em, mọi thứ bình thường nhất cũng trở nên đặc biệt.\n\n" +
       "Mong rằng mình sẽ cùng nhau làm thật nhiều điều mới, đi thật nhiều nơi, và có thêm thật nhiều kỷ niệm đẹp.\n\n" +
-      "Yêu người nhiều lắm.",
+      "Yêu em bé của anh nhiều.",
     sign: "— Của người thương 🌹",
   },
 
