@@ -1,52 +1,51 @@
+
 // =====================================================
-//  SỬA NỘI DUNG Ở ĐÂY — chỉ cần sửa file này là đủ 💕
+// SỬA NỘI DUNG Ở ĐÂY — Website kỷ niệm 💕
 // =====================================================
 const LOVE = {
   // Tên hai bạn
   name1: "Quốc Bảo",
   name2: "Khánh VY",
 
-  // Ngày bắt đầu yêu (năm-tháng-ngàyTgiờ:phút:giây)
+  // Ngày chính thức bắt đầu yêu nhau
   startDate: "2026-10-25T20:00:00",
 
   // Dòng chữ nhỏ dưới tên
   tagline: "Cảm ơn vì đã xuất hiện và ở lại bên nhau 🌷",
 
-  // Nhạc nền (tuỳ chọn): bỏ file mp3 vào cùng thư mục rồi ghi tên, vd "music.mp3". Để "" nếu không dùng.
+  // Nhạc nền
   music: "",
 
-  // Các cột mốc — thêm/bớt thoải mái. "photo" có thể để "" nếu không có ảnh.
-  milestones: [
-    {
-      // Các cột mốc — thêm/bớt thoải mái. "photo" có thể để "" nếu không có ảnh.
+  // Các cột mốc kỷ niệm
   milestones: [
     {
       date: "2026-09-06",
-      title: "Ngày mình bắt đầu ",
+      title: "Ngày mình bắt đầu",
       text: "Ngày đầu tiên mình nhắn tin cho nhau. Hồi hộp lắm nhưng mà vui lắm.",
-      photo: "images/1.jpg",
+      photo: "1.jpg",
     },
     {
       date: "2026-10-24",
-      title: "Kỷ niệm ",
-      text: "Ngày a và e đi chơi , gặp nhau một buổi tối đi ăn quán Korean và đi chơi dạo phố và có buổi tối ở cùng nhau .",
-     photo: "images/2.jpg",
+      title: "Kỷ niệm",
+      text: "Ngày a và e đi chơi, gặp nhau một buổi tối đi ăn quán Korean, đi dạo phố và có buổi tối ở cùng nhau.",
+      photo: "2.jpg",
     },
-      {
+    {
       date: "2026-10-25",
       title: "Kỷ niệm đáng nhớ",
-      text: "Ngày 2 chúng ta đi chơi thảo cầm viên, đi ăn uống, và ngày a đã tỏ tình e đánh dấy này chúng ta yêu .",
-     photo: "images/3.jpg",
+      text: "Ngày thứ hai chúng ta đi chơi Thảo Cầm Viên, đi ăn uống, và ngày a đã tỏ tình e, đánh dấu ngày chúng ta chính thức yêu nhau.",
+      photo: "3.jpg",
     },
   ],
 
-  // Thư viện ảnh: bỏ ảnh vào thư mục images/ rồi ghi tên ảnh ở đây
+  // Thư viện ảnh — ảnh nằm cùng cấp với config.js
   gallery: [
-    "images/1.jpg", "images/2.jpg", "images/3.jpg",
-    "images/4.jpg", "images/5.jpg", "images/6.jpg",
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
   ],
 
-  // Mục "lý do yêu" — bấm nút sẽ hiện ngẫu nhiên từng câu
+  // Những lý do yêu
   reasonsTitle: "Những điều mình thương nhất 💌",
   reasons: [
     "Vì nụ cười của người làm mọi mệt mỏi tan biến.",
