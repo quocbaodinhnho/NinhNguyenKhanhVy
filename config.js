@@ -3,11 +3,11 @@
 // =====================================================
 const LOVE = {
   // Tên hai bạn
-  name1: "Anh",
-  name2: "Em",
+  name1: "Quốc Bảo",
+  name2: "Khánh Vy",
 
   // Ngày bắt đầu yêu (năm-tháng-ngàyTgiờ:phút:giây)
-  startDate: "2024-02-14T20:00:00",
+  startDate: "2026-10-25T20:00:00",
 
   // Dòng chữ nhỏ dưới tên
   tagline: "Cảm ơn vì đã xuất hiện và ở lại bên nhau 🌷",
@@ -18,28 +18,22 @@ const LOVE = {
   // Các cột mốc — thêm/bớt thoải mái. "photo" có thể để "" nếu không có ảnh.
   milestones: [
     {
-      date: "2024-02-14",
-      title: "Ngày mình bắt đầu",
-      text: "Ngày đầu tiên mình chính thức là của nhau. Hồi hộp lắm nhưng mà vui lắm.",
+      date: "2026-09-06",
+      title: "Ngày mình bắt đầu ",
+      text: "Ngày đầu tiên mình nhắn tin cho nhau. Hồi hộp lắm nhưng mà vui lắm.",
       photo: "images/1.jpg",
     },
     {
-      date: "2024-05-20",
-      title: "Chuyến đi đầu tiên",
-      text: "Lần đầu mình đi chơi xa cùng nhau, đi đâu cũng thấy vui vì có nhau.",
+      date: "2026-10-24",
+      title: "Kỷ niệm ",
+      text: "Ngày a và e đi chơi , gặp nhau một buổi tối đi ăn quán Korean và đi chơi dạo phố và có buổi tối ở cùng nhau .",
       photo: "images/2.jpg",
     },
-    {
-      date: "2024-10-10",
-      title: "Một kỷ niệm khó quên",
-      text: "Viết gì đó thật đáng nhớ ở đây nhé...",
+      {
+      date: "2026-10-25",
+      title: "Kỷ niệm đáng nhớ",
+      text: "Ngày 2 chúng ta đi chơi thảo cầm viên, đi ăn uống, và ngày a đã tỏ tình e đánh dấy này chúng ta yêu .",
       photo: "images/3.jpg",
-    },
-    {
-      date: "2025-02-14",
-      title: "Kỷ niệm 1 năm",
-      text: "Một năm có nhau, có biết bao nhiêu điều để nhớ.",
-      photo: "images/4.jpg",
     },
   ],
 
