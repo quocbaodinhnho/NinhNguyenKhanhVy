@@ -1,0 +1,12 @@
+CẬP NHẬT SẢN PHẨM
+1. Copy ảnh vào thư mục images/ (tên không dấu, ví dụ: bang-hieu-01.jpg).
+2. Mở products.json, thêm một khối vào mảng "products":
+   { "name": "Tên sản phẩm", "category": "Danh mục", "price": 1500000, "unit": "m²", "image": "images/bang-hieu-01.jpg", "desc": "Mô tả ngắn." }
+   - price: số (không có dấu chấm), hoặc null để hiện "Liên hệ".
+   - Danh mục mới tự xuất hiện trên nút lọc.
+   - Các dòng cách nhau bằng dấu phẩy, dòng cuối không có dấu phẩy.
+3. Sửa số điện thoại, Zalo, địa chỉ ở phần "shop" đầu file products.json.
+4. Commit và push lên GitHub, đợi ~1 phút là web cập nhật.
+
+ĐƯA LÊN GITHUB PAGES
+Repo > Settings > Pages > Branch: main, thư mục / (root) > Save.
