@@ -1,3 +1,9 @@
+// ====== THÔNG TIN LIÊN HỆ: chỉ cần sửa 3 dòng này ======
+const PHONE = "0357122851";                              // số điện thoại (cũng là số Zalo)
+const ZALO  = "https://zalo.me/" +0357122851;                // hoặc link Zalo OA: https://zalo.me/ten-oa
+const FB    = "https://www.facebook.com/Ninhnguyenkhanhvy";               // dán link trang Facebook, ví dụ https://m.me/ten-trang-cua-ban
+// =======================================================
+
 // ====== DỮ LIỆU: sửa tại đây ======
 // image: đường dẫn tới ảnh trong thư mục images/ (chưa có ảnh sẽ hiện khung xám)
 const PRODUCTS = [
@@ -75,3 +81,15 @@ const top = $("#totop");
 addEventListener("scroll", () => top.classList.toggle("show", scrollY > 400));
 top.onclick = () => scrollTo({top:0});
 $("#year").textContent = new Date().getFullYear();
+
+// Gắn link cho nút liên hệ
+$("#lnkZalo").href = ZALO;
+$("#lnkMess").href = FB;
+$("#txtPhone").textContent = PHONE;
+document.querySelectorAll(".tel").forEach(a => a.href = "tel:" + PHONE);
+document.querySelectorAll(".phoneTxt").forEach(e => e.textContent = PHONE.replace(/(\d{4})(\d{3})(\d{3})/, "$1 $2 $3"));
+$("#lnkCall").addEventListener("click", e => {
+  // Máy tính không gọi được: hiện số để người dùng chép
+  if (!/Android|iPhone|iPad|Mobile/i.test(navigator.userAgent)) { e.preventDefault(); alert("Hotline: " + PHONE); }
+  else e.currentTarget.href = "tel:" + PHONE;
+});
